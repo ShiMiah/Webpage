@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="fi" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+   <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
+    <link rel="stylesheet" href="yhtes.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Osoite</div>
+          <div class="text-one">Kartanonkatu 10</div>
+          <div class="text-two">30100 Forssa</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Puhelin</div>
+          <div class="text-one">040 123 4567</div>
+          <div class="text-two">040 765 4321</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Sähköposti</div>
+          <div class="text-one">support@baanaani.fi</div>
+          <div class="text-two">info@baanaani.fi</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Ota yhteyttä</div>
+        <p>Jos on kysyttävää, ota rohkeästi meidän yhteyttä.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" id="nimi" placeholder="Kirjoittaa nimesi" required>
+        </div>
+        <div class="input-box">
+            <input type="number" id="puhelin" placeholder="Kirjoittaa puhelin numero" required>
+          </div>
+        <div class="input-box">
+          <input type="text" id="sähköposti"  placeholder="Sähköposti osoite" required>
+        </div>
+        
+          <label for="aihe">Valitse aihesi:</label>
+          
+         
+         
+          <select name="aihe" id="aihe">
+            <option value="nettisivu">Nettisivuen luominen</option>
+            <option value="sovellus">Ohjelmiston luominen</option>
+            <option value="Muu">Muu asia</option>            
+          </select>
+          <div class="input-box">
+            <input type="text" id="viesti" placeholder="Viesti" required>
+          </div>
+        <div class="input-box message-box">
+
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Lähetä" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
